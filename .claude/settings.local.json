@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \" import json with open\\(''Final_Project.ipynb'', ''r'', encoding=''utf-8''\\) as f: nb = json.load\\(f\\) for i, cell in enumerate\\(nb[''cells'']\\): if i < 60: continue src = ''''.join\\(cell[''source'']\\) if cell[''cell_type''] == ''markdown'': print\\(f''--- Cell {i} [markdown] ---''\\) print\\(src[:300]\\) print\\(\\) else: print\\(f''--- Cell {i} [code] ---''\\) print\\(src[:300]\\) print\\(\\) \")"
+    ]
+  }
+}
